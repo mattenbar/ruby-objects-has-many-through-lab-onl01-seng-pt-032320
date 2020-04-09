@@ -16,4 +16,7 @@ class Doctor
     @@all << self
   end
 
+  def appointments
+    Apointment.all.select {|appointment| appointment.doctor}
+
 end
