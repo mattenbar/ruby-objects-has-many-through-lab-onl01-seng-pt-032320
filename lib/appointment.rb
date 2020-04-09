@@ -1,10 +1,10 @@
 class Appointment
 
-    attr_accessor :name
+    attr_accessor :date
     @@all = []
 
-    def initialize(name)
-      @name = name
+    def initialize(date)
+      @date = date
       save
     end
 
