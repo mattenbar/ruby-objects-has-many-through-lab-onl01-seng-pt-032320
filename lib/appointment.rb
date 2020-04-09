@@ -17,4 +17,8 @@ class Appointment
     def save
       @@all << self
     end
+
+    def patient
+      
+    end
 end
