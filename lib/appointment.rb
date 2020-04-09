@@ -18,7 +18,5 @@ class Appointment
       @@all << self
     end
 
-    def patient
-      Patient.all.select {|patient| patient.appointment}
-    end
+  
 end
