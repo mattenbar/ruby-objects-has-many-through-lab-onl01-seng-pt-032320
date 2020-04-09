@@ -17,6 +17,4 @@ class Appointment
     def save
       @@all << self
     end
-
-  
 end
