@@ -19,6 +19,6 @@ class Appointment
     end
 
     def patient
-      
+      Patient.all.select {|patient| patient.date}
     end
 end
