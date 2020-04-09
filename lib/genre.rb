@@ -21,8 +21,6 @@ class Genre
   end
 
   def artists
-    #iterates over the genre's collection of songs and collects the artist that owns each song.
     songs.map {|song| song.artist}
   end
-
 end
