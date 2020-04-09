@@ -18,5 +18,6 @@ class Doctor
 
   def appointments
     Apointment.all.select {|appointment| appointment.doctor}
+  end
 
 end
